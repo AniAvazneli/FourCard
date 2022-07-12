@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500;900&family=Big+Shoulders+Display:wght@800;900&family=Poppins:wght@200;300;400;600&display=swap');
+* {
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+    body{
+      display: flex;
+      flex-direction: column;
+      max-width: 100vw;
+      overflow-x: hidden;
+      max-width: 100%;
+    }
+    header{
+        margin-top: 85px;
+        margin-left: 39px;
+        margin-right: 40px;
+        text-align: center;
+        
+    }
+    .hLight{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 275;
+        font-size: 24px;
+        line-height: 36px;
+        letter-spacing: 0.166667px;
+        color: #4D4F62;
+        margin-bottom: 1px;
+    }
+    .hDarck{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 36px;
+        text-align: center;
+        letter-spacing: 0.166667px;
+        color: #4D4F62;
+    }
+    .headerP{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+        letter-spacing: 0.104167px;
+        color: #4D4F62;
+        mix-blend-mode: normal;
+        opacity: 0.5;
+    }
+    .mainContent{
+        display: flex;
+        flex-direction: column;
+        margin-top: 76px;
+        margin-left: 32px;
+        margin-right: 32px;
+        margin-bottom: 78px;
+    }
+    .headline{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+        color: #4D4F62;
+        
+    }
+    .paragraph{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 23px;
+        letter-spacing: 0.0902778px;
+        color: #4D4F62;
+        mix-blend-mode: normal;
+        opacity: 0.5;
+        width: 254px;
+        margin-top: 1px;
+    }
+    .image{
+        display: block;
+        margin-left: auto;
+        width: 57px;
+        height: 57px;
+        margin-right: 28px;
+        margin-bottom: 28px;
+        margin-top: 33px;
+    }
+    .card1{
+        padding-top: 27px;
+        padding-left: 28px;
+        box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+        border-radius: 8px;
+        height: 222px;
+        width: 100%;
+        margin-bottom: 25px;
+        border-top: 3.55px solid;
+        border-color: #44D3D2;
+    }
+    .card2{
+        padding-top: 27px;
+        padding-left: 28px;
+        border-radius: 8px;
+        height: 222px;
+        width: 100%;
+        margin-bottom: 25px;
+        box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+        border-top: 3.55px solid;
+        border-color: #EA5454;
+    }
+    .card3{
+        padding-top: 27px;
+        padding-left: 28px;
+        border-radius: 8px;
+        height: 222px;
+        width: 100%;
+        margin-bottom: 25px;
+        box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+        border-top: 3.55px solid;
+        border-color: #FCAE4A;
+    }
+    .card4{
+        padding-top: 27px;
+        padding-left: 28px;
+        border-radius: 8px;
+        height: 222px;
+        width: 100%;
+        box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+        border-top: 3.55px solid;
+        border-color: #549EF2;
+    }
+    @media screen and (min-width: 1440px){
+        header{
+            margin-top: 80px;
+            margin-left: 450px;
+            margin-right: 450px;
+            text-align: center;
+        }
+        .hLight{
+            font-size: 36px;
+            line-height: 54px;
+        }
+        .hDarck{
+            font-size: 36px;
+            line-height: 54px;
+        }
+        .headerP{
+            margin-top: 13px;
+        }
+        .mainContent{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            justify-content: center;
+            align-items: center;
+            column-gap: 30px;
+            margin-top: 64px;
+            margin-left: 165px;
+            margin-right: 165px;
+            margin-bottom: 80px;
+        }
+    }
